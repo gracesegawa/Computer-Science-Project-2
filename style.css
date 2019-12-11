@@ -11,10 +11,16 @@ body {
   background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
   background-position: center top;
   background-size: cover;
-  margin: 0;
+  margin: 1;
 }
 
-img {style="width:500px;height:600px;"
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 a {
@@ -36,7 +42,7 @@ a {
 .grid2 {
   border: 2px blue solid;
   width: 500px;
-  height:825px;
+  height:500px;
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-rows: 1fr 1fr 1fr;
